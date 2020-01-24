@@ -1,6 +1,7 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import "./App.css";
 import NasaData from "./components/NasaData"
+
 
 function App() {
   return (

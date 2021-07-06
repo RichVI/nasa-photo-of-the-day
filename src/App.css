@@ -1,15 +1,13 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,9 +17,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -30,4 +25,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body{
+    width: 85vw;
+    height: 100vh;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white, black);
+}
+
+img{
+  width: 80%;
+  overflow: hidden;
+}
+.logo{
+  width: 20%;
+}
+
+.card{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  
 }
